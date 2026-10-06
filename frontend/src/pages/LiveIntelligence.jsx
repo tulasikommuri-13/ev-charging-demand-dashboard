@@ -935,7 +935,7 @@ const LiveIntelligence = () => {
 
         try {
           const response = await fetch(
-  `${import.meta.env.VITE_API_URL}/live/nearby-stations?latitude=${latitude}&longitude=${longitude}`
+  `${import.meta.env.VITE_API_URL}/live-intelligence/nearby-stations?latitude=${latitude}&longitude=${longitude}`
 );
 
           const data = await response.json();
